@@ -1,0 +1,11 @@
+
+
+<h1 class="head">ブログ</h1>
+<nav class="navbar">
+	<a class="agap" routerLink="">Timeline</a>
+	<a class="agap"*ngIf="isLoggedIn" routerLink="/tweet">Tweet</a>
+	<a class="agap"*ngIf="!isLoggedIn" routerLink="/login">Login</a>
+	<a class="agap"*ngIf="isLoggedIn" (click)="logout()">Logout</a>
+	<a class="agap"*ngIf="!isLoggedIn" routerLink="/signup">Sign-up</a>
+</nav>
+<router-outlet></router-outlet>

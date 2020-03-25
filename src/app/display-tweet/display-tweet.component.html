@@ -1,0 +1,17 @@
+<div class="tweet">
+  <div class="msg">
+  <div class="itemop">
+<b>{{tweet.name}}</b> · <b class="time">{{tweet.date.seconds*1000 | timeAgo}} </b>
+  </div>
+<p>{{tweet.msg}}</p>
+ <div class="itemop">
+<app-upvote [voters]="tweet.voters" [twId]="tweet.id"></app-upvote><br>
+<app-delete [delTwId]="tweet.id" [delTwUsn]="tweet.name"></app-delete>
+ </div>
+  </div>
+</div>
+
+
+
+
+

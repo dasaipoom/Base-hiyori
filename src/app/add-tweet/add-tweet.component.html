@@ -1,0 +1,9 @@
+<div class="twbox">
+<form class="twbox mar"[formGroup]="form" (ngSubmit)="onSubmit()">
+ <label> NAME:  {{name}}</label>
+ <br>
+ Message :
+ <textarea class="textarea mar" formControlName="msg"></textarea>
+ <div><input class="addbtn mar" type="submit" value="Tweet"></div>
+</form>
+</div>

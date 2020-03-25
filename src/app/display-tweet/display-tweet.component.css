@@ -1,0 +1,19 @@
+
+ .tweet {
+  border-radius: 10px;
+  margin: 5px;
+  padding: 3px;
+  background-color: #ffffff;
+  border: 3px solid #f0d78c;
+}
+.itemop{
+  display: flex;
+  justify-content: space-between;
+}
+
+.msg{
+  margin: 15px;
+}
+.time{
+  color: rgb(131, 131, 131)
+}
